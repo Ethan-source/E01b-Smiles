@@ -17,11 +17,11 @@ for x in range(100,800,150):
         #start at 100, go to 599, counting by 150
         for y in range(100,600,150):
                 face_x,face_y = (x,y)
-                smile_x,smile_y = (face_x + 0,face_y - 0)
-                eye1_x,eye1_y = (face_x - 0,face_y + 0) 
-                eye2_x,eye2_y = (face_x + 0,face_y + 0)
-                catch1_x,catch1_y = (face_x - 0,face_y + 0) 
-                catch2_x,catch2_y = (face_x + 0,face_y + 0) 
+                smile_x,smile_y = (face_x + 0,face_y - 10)
+                eye1_x,eye1_y = (face_x - 45,face_y + 17) 
+                eye2_x,eye2_y = (face_x  + 35,face_y + 17)
+                catch1_x,catch1_y = (face_x - 40,face_y + 20) 
+                catch2_x,catch2_y = (face_x + 40,face_y + 20) 
 
 
                 # Draw the smiley face:
