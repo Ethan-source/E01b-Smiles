@@ -14,8 +14,8 @@ face_x,face_y = (400,300)
 smile_x,smile_y = (face_x + 4,face_y -20)
 eye1_x,eye1_y = (face_x - 50,face_y + 20) 
 eye2_x,eye2_y = (face_x + 50,face_y + 20)
-catch1_x,catch1_y = (face_x - 51,face_y + 20) 
-catch2_x,catch2_y = (face_x + 51,face_y + 20) 
+catch1_x,catch1_y = (face_x - 40,face_y + 24) 
+catch2_x,catch2_y = (face_x + 60,face_y + 24) 
 
 
 # Draw the smiley face:
